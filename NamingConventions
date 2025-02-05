@@ -1,0 +1,7 @@
+
+// class,interface - class should start with cap only
+// variable,method - start with small camel case ------> ex:showMyMethod
+//constants - PIE,BRAND DATA,MY_DATA
+//construtor -- Human()
+
+
