@@ -3,7 +3,7 @@ public class InnerClass {
         A obj=new A();
         obj.show();
         // B obj1=new B();//we cann't create for b
-        A.B obj2=obj.new B();
+        A.B obj2=new A.B();
         obj2.config();
     }
 }
@@ -12,7 +12,7 @@ class A{
     public void show(){
 System.out.println("show");
     }
-    class B{
+   static   class B{
    public void config(){
     System.out.println("in config");
    }
