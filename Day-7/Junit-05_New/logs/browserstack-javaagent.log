@@ -1,0 +1,102 @@
+08:21:18.884 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.0
+08:21:18.886 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+08:21:19.119 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ITS-LT-LNR-4367-1\\Documents\\COURSE\\Java-Fundamentals\\Day-7\\Junit-05_New, style.color=always, user.dir=C\:\\Users\\ITS-LT-LNR-4367-1\\Documents\\COURSE\\Java-Fundamentals\\Day-7\\Junit-05_New, localrepository=C\:\\Users\\ITS-LT-LNR-4367-1\\.m2\\repository}
+08:21:19.120 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\browserstack.yml
+08:21:19.463 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+08:21:19.466 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: e1100c49-1278-4e8c-9a9d-416613b929ae
+08:21:19.466 [main] INFO  c.b.config.BrowserStackConfig - INFO
+08:21:21.729 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+08:21:25.658 [main] INFO  c.b.config.BrowserStackConfig - ERROR
+08:21:25.659 [main] WARN  com.browserstack.testOps.Listener - Exception in testhub build creation Access to BrowserStack denied due to incorrect credentials.
+08:21:25.660 [main] INFO  c.browserstack.utils.LogReportingAPI - 
+[2025-02-10T13:21:25.659616800Z][ TESTHUB ] EXCEPTION IN BUILD START EVENT : com.browserstack.testOps.RequestException: Non 200 response
+	at com.browserstack.testOps.RequestException.non200(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsJson(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.launch(Unknown Source)
+	at com.browserstack.testOps.Listener.onStart(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.browserstack.utils.ConditionalInvocationHandler.invoke(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy8.onStart(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+
+08:21:25.660 [main] INFO  c.b.config.BrowserStackConfig - INFO
+08:21:25.660 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+08:21:35.036 [main] ERROR com.browserstack.LocalFactory - Initialization of BrowserStack Local failed com.browserstack.local.LocalException: Disconnected.
+08:21:36.224 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ITS-LT-LNR-4367-1\\Documents\\COURSE\\Java-Fundamentals\\Day-7\\Junit-05_New, style.color=always, user.dir=C\:\\Users\\ITS-LT-LNR-4367-1\\Documents\\COURSE\\Java-Fundamentals\\Day-7\\Junit-05_New, localrepository=C\:\\Users\\ITS-LT-LNR-4367-1\\.m2\\repository}
+08:21:36.225 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\browserstack.yml
+08:21:36.227 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ITS-LT-LNR-4367-1\\Documents\\COURSE\\Java-Fundamentals\\Day-7\\Junit-05_New, style.color=always, user.dir=C\:\\Users\\ITS-LT-LNR-4367-1\\Documents\\COURSE\\Java-Fundamentals\\Day-7\\Junit-05_New, localrepository=C\:\\Users\\ITS-LT-LNR-4367-1\\.m2\\repository}
+08:21:36.228 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\browserstack.yml
+08:21:36.231 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ITS-LT-LNR-4367-1\\Documents\\COURSE\\Java-Fundamentals\\Day-7\\Junit-05_New, style.color=always, user.dir=C\:\\Users\\ITS-LT-LNR-4367-1\\Documents\\COURSE\\Java-Fundamentals\\Day-7\\Junit-05_New, localrepository=C\:\\Users\\ITS-LT-LNR-4367-1\\.m2\\repository}
+08:21:36.232 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\browserstack.yml
+08:21:36.619 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 9989f78c-e2e4-47ba-a34f-d2f2ca381542
+08:21:36.619 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 1317b76a-d602-4896-9399-4884aac919a1
+08:21:36.619 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 3d19bca0-e2f0-4485-812e-b849e7b94f4a
+08:21:36.619 [main] INFO  c.b.config.BrowserStackConfig - INFO
+08:21:36.619 [main] INFO  c.b.config.BrowserStackConfig - INFO
+08:21:36.619 [main] INFO  c.b.config.BrowserStackConfig - INFO
+08:21:39.544 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+08:21:39.603 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+08:21:39.720 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+08:21:45.840 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: e1100c49-1278-4e8c-9a9d-416613b929ae, testhub id: 
+08:21:45.841 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+08:23:04.504 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.0
+08:23:04.504 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+08:23:04.729 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ITS-LT-LNR-4367-1\\Documents\\COURSE\\Java-Fundamentals\\Day-7\\Junit-05_New, style.color=always, user.dir=C\:\\Users\\ITS-LT-LNR-4367-1\\Documents\\COURSE\\Java-Fundamentals\\Day-7\\Junit-05_New, localrepository=C\:\\Users\\ITS-LT-LNR-4367-1\\.m2\\repository}
+08:23:04.729 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\browserstack.yml
+08:23:05.108 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+08:23:05.113 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 5f03819a-e3ed-46e8-ba50-77cc9be31448
+08:23:05.113 [main] INFO  c.b.config.BrowserStackConfig - INFO
+08:23:07.171 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+08:23:07.637 [main] INFO  c.b.config.BrowserStackConfig - ERROR
+08:23:07.637 [main] WARN  com.browserstack.testOps.Listener - Exception in testhub build creation Access to BrowserStack denied due to incorrect credentials.
+08:23:07.638 [main] INFO  c.browserstack.utils.LogReportingAPI - 
+[2025-02-10T13:23:07.637704800Z][ TESTHUB ] EXCEPTION IN BUILD START EVENT : com.browserstack.testOps.RequestException: Non 200 response
+	at com.browserstack.testOps.RequestException.non200(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsJson(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.launch(Unknown Source)
+	at com.browserstack.testOps.Listener.onStart(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.browserstack.utils.ConditionalInvocationHandler.invoke(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy8.onStart(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+
+08:23:07.638 [main] INFO  c.b.config.BrowserStackConfig - INFO
+08:23:07.639 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+08:23:10.972 [main] ERROR com.browserstack.LocalFactory - Initialization of BrowserStack Local failed com.browserstack.local.LocalException: Disconnected.
+08:23:11.956 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ITS-LT-LNR-4367-1\\Documents\\COURSE\\Java-Fundamentals\\Day-7\\Junit-05_New, style.color=always, user.dir=C\:\\Users\\ITS-LT-LNR-4367-1\\Documents\\COURSE\\Java-Fundamentals\\Day-7\\Junit-05_New, localrepository=C\:\\Users\\ITS-LT-LNR-4367-1\\.m2\\repository}
+08:23:11.957 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\browserstack.yml
+08:23:11.971 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ITS-LT-LNR-4367-1\\Documents\\COURSE\\Java-Fundamentals\\Day-7\\Junit-05_New, style.color=always, user.dir=C\:\\Users\\ITS-LT-LNR-4367-1\\Documents\\COURSE\\Java-Fundamentals\\Day-7\\Junit-05_New, localrepository=C\:\\Users\\ITS-LT-LNR-4367-1\\.m2\\repository}
+08:23:11.971 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\browserstack.yml
+08:23:11.977 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ITS-LT-LNR-4367-1\\Documents\\COURSE\\Java-Fundamentals\\Day-7\\Junit-05_New, style.color=always, user.dir=C\:\\Users\\ITS-LT-LNR-4367-1\\Documents\\COURSE\\Java-Fundamentals\\Day-7\\Junit-05_New, localrepository=C\:\\Users\\ITS-LT-LNR-4367-1\\.m2\\repository}
+08:23:11.978 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\browserstack.yml
+08:23:12.297 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 6a3b8adb-e4dd-457c-a394-80b32ec67e39
+08:23:12.298 [main] INFO  c.b.config.BrowserStackConfig - INFO
+08:23:12.310 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 7561a711-196b-4d50-b9bb-eba4c867eab7
+08:23:12.310 [main] INFO  c.b.config.BrowserStackConfig - INFO
+08:23:12.329 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 82e093d5-c8b0-4fb0-a104-6311ef8c893e
+08:23:12.329 [main] INFO  c.b.config.BrowserStackConfig - INFO
+08:23:14.265 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+08:23:14.272 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+08:23:14.594 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+08:23:22.095 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 5f03819a-e3ed-46e8-ba50-77cc9be31448, testhub id: 
+08:23:22.096 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO

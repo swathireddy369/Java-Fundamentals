@@ -1,0 +1,794 @@
+08:21:18.861 [main] DEBUG browserStackFileDebugger - Running SDK with properties: {java.specification.version=21, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, java.class.path=C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Temp\surefire6332826084471731526\surefirebooter8092876439911519206.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, user.variant=, java.vendor.url=https://java.oracle.com/, user.timezone=America/New_York, java.vm.specification.version=21, os.name=Windows 11, sun.java.launcher=SUN_STANDARD, user.country=US, sun.boot.library.path=C:\Program Files\Java\jdk-21\bin, sun.java.command=C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Temp\surefire6332826084471731526\surefirebooter8092876439911519206.jar C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Temp\surefire6332826084471731526 2025-02-10T08-21-16_090-jvmRun1 surefire16461190110287177179tmp surefire_07216693928798218856tmp, jdk.debug=release, sun.cpu.endian=little, user.home=C:\Users\ITS-LT-LNR-4367-1, user.language=en, java.specification.vendor=Oracle Corporation, java.version.date=2024-07-16, java.home=C:\Program Files\Java\jdk-21, file.separator=\, java.vm.compressedOopsMode=Zero based, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=21.0.4+8-LTS-274, user.name=ITS-LT-LNR-4367-1, stdout.encoding=Cp1252, path.separator=;, os.version=10.0, java.runtime.name=Java(TM) SE Runtime Environment, file.encoding=UTF-8, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, java.vendor.url.bug=https://bugreport.java.com/bugreport/, java.io.tmpdir=C:\Users\ITS-LT~1\AppData\Local\Temp\, java.version=21.0.4, user.dir=C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, sun.os.patch.level=, native.encoding=Cp1252, java.library.path=C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\ProgramData\anaconda3\Scripts;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\MongoDB\Server\8.0\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Microsoft\WindowsApps;C:\Users\ITS-LT-LNR-4367-1\.dotnet\tools;C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ITS-LT-LNR-4367-1\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\8.0\bin;C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Programs\mongosh\;., java.vm.info=mixed mode, sharing, stderr.encoding=Cp1252, java.vendor=Oracle Corporation, java.vm.version=21.0.4+8-LTS-274, sun.io.unicode.encoding=UnicodeLittle, java.class.version=65.0}
+08:21:18.873 [main] DEBUG browserStackFileDebugger - Running SDK with classpath: C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Temp\surefire6332826084471731526\surefirebooter8092876439911519206.jar
+08:21:18.884 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.0
+08:21:18.886 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+08:21:19.119 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ITS-LT-LNR-4367-1\\Documents\\COURSE\\Java-Fundamentals\\Day-7\\Junit-05_New, style.color=always, user.dir=C\:\\Users\\ITS-LT-LNR-4367-1\\Documents\\COURSE\\Java-Fundamentals\\Day-7\\Junit-05_New, localrepository=C\:\\Users\\ITS-LT-LNR-4367-1\\.m2\\repository}
+08:21:19.120 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\browserstack.yml
+08:21:19.455 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to TRACE for logger com.browserstack
+08:21:19.455 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO for logger stdoutPrinter
+08:21:19.463 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire16461190110287177179tmp
+08:21:19.463 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire16461190110287177179tmp
+08:21:19.463 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.30.3
+08:21:19.463 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+08:21:19.465 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for INT
+08:21:19.465 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for TERM
+08:21:19.465 [main] DEBUG c.b.utils.ExitSignalHandler - Unable to attach signal handler for HUP Unknown signal: HUP
+08:21:19.465 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for ABRT
+08:21:19.466 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: e1100c49-1278-4e8c-9a9d-416613b929ae
+08:21:19.466 [main] INFO  c.b.config.BrowserStackConfig - INFO
+08:21:19.927 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-use.browserstack.com","hub-usw.browserstack.com","hub-euw.browserstack.com"]
+08:21:20.267 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 338ms
+08:21:20.780 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-usw.browserstack.com HUB IS: 508ms
+08:21:21.388 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 606ms
+08:21:21.393 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-use.browserstack.com
+08:21:21.446 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Couldn't find dependency class: appium
+08:21:21.449 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestAttempted with data: {"event_type":"SDKTestAttempted","accessKey":"YOUR_ACCESS_KEY","userName":"YOUR_USERNAME","event_properties":{"product":"[automate]","buildName":"browserstack build","os":"Windows 11","languageVersion":"21.0.4","appiumVersion":"","frameworkDetectionInstrumentation":{},"language":"java","sdkRunId":"e1100c49-1278-4e8c-9a9d-416613b929ae","buildIdentifier":"#1","userFramework":"junit5","testhub_uuid":"","detectedAppiumVersion":"null","detectedDependencies":"junit4, junit5","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true,"turboscale":false},"referrer":"junit5-javaagent\/1.30.3","hostname":"ITS-LT-LNR-4367","framework":"junit5","frameworkVersion":"","language_framework":"java_junit5","detectedFramework":"none","detectedSeleniumVersion":"4.1.0","automationFramework":"selenium","automationFrameworkVersion":"4.1.0","seleniumVersion":"4.1.0"}}
+08:21:21.729 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted, response: {"message":"Unauthorized"}
+08:21:21.729 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+08:21:25.350 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:21:25.350 [main] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind launchTestSession
+08:21:25.351 [main] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v2/builds with request size 1312
+08:21:25.351 [main] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v2/builds with request size 1312
+08:21:25.655 [main] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 401
+08:21:25.656 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 401
+08:21:25.656 [main] DEBUG c.browserstack.testOps.RequestUtils - [OBSERVABILITY] Non-200 Response 401 with error 
+08:21:25.658 [main] DEBUG com.browserstack.testOps.Listener - Source: testhub, Error trace ID: 109c8c79-d2da-43b6-9891-e23431ac9499, Code: null
+08:21:25.658 [main] INFO  c.b.config.BrowserStackConfig - ERROR
+08:21:25.659 [main] WARN  com.browserstack.testOps.Listener - Exception in testhub build creation Access to BrowserStack denied due to incorrect credentials.
+08:21:25.660 [main] INFO  c.browserstack.utils.LogReportingAPI - 
+[2025-02-10T13:21:25.659616800Z][ TESTHUB ] EXCEPTION IN BUILD START EVENT : com.browserstack.testOps.RequestException: Non 200 response
+	at com.browserstack.testOps.RequestException.non200(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsJson(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.launch(Unknown Source)
+	at com.browserstack.testOps.Listener.onStart(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.browserstack.utils.ConditionalInvocationHandler.invoke(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy8.onStart(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+
+08:21:25.660 [main] INFO  c.b.config.BrowserStackConfig - INFO
+08:21:25.660 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+08:21:25.666 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 10_Feb_821_ITS_LT_LNR_4367_SJxd
+08:21:35.036 [main] ERROR com.browserstack.LocalFactory - Initialization of BrowserStack Local failed com.browserstack.local.LocalException: Disconnected.
+08:21:35.036 [main] DEBUG c.b.monitoring.PerformanceTester - Exception in marking performance status: Initialization of BrowserStack Local failed Disconnected.
+08:21:35.036 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:21:35.037 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:21:35.066 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:21:35.072 [Thread-8] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire16461190110287177179tmp
+08:21:35.073 [Thread-8] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire16461190110287177179tmp
+08:21:35.074 [Thread-7] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire16461190110287177179tmp
+08:21:35.074 [Thread-6] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire16461190110287177179tmp
+08:21:35.075 [Thread-7] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire16461190110287177179tmp
+08:21:35.075 [Thread-6] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire16461190110287177179tmp
+08:21:35.081 [Thread-8] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire16461190110287177179tmp
+08:21:35.081 [Thread-8] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire16461190110287177179tmp
+08:21:35.083 [Thread-7] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire16461190110287177179tmp
+08:21:35.083 [Thread-6] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire16461190110287177179tmp
+08:21:35.083 [Thread-7] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire16461190110287177179tmp
+08:21:35.083 [Thread-6] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire16461190110287177179tmp
+08:21:35.868 [main] DEBUG browserStackFileDebugger - Running SDK with properties: {java.specification.version=21, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, java.class.path=C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Temp\surefire6332826084471731526\surefirebooter8092876439911519206.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, user.variant=, java.vendor.url=https://java.oracle.com/, user.timezone=America/New_York, java.vm.specification.version=21, os.name=Windows 11, sun.java.launcher=SUN_STANDARD, user.country=US, sun.boot.library.path=C:\Program Files\Java\jdk-21\bin, sun.java.command=C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Temp\surefire6332826084471731526\surefirebooter8092876439911519206.jar C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Temp\surefire6332826084471731526 2025-02-10T08-21-16_090-jvmRun1 surefire16461190110287177179tmp surefire_07216693928798218856tmp, jdk.debug=release, sun.cpu.endian=little, user.home=C:\Users\ITS-LT-LNR-4367-1, user.language=en, java.specification.vendor=Oracle Corporation, java.version.date=2024-07-16, java.home=C:\Program Files\Java\jdk-21, file.separator=\, java.vm.compressedOopsMode=Zero based, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=21.0.4+8-LTS-274, user.name=ITS-LT-LNR-4367-1, stdout.encoding=Cp1252, path.separator=;, os.version=10.0, java.runtime.name=Java(TM) SE Runtime Environment, file.encoding=UTF-8, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, java.vendor.url.bug=https://bugreport.java.com/bugreport/, java.io.tmpdir=C:\Users\ITS-LT~1\AppData\Local\Temp\, java.version=21.0.4, user.dir=C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, sun.os.patch.level=, native.encoding=Cp1252, java.library.path=C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\ProgramData\anaconda3\Scripts;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\MongoDB\Server\8.0\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Microsoft\WindowsApps;C:\Users\ITS-LT-LNR-4367-1\.dotnet\tools;C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ITS-LT-LNR-4367-1\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\8.0\bin;C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Programs\mongosh\;., java.vm.info=mixed mode, sharing, stderr.encoding=Cp1252, java.vendor=Oracle Corporation, java.vm.version=21.0.4+8-LTS-274, sun.io.unicode.encoding=UnicodeLittle, java.class.version=65.0}
+08:21:35.878 [main] DEBUG browserStackFileDebugger - Running SDK with properties: {java.specification.version=21, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, java.class.path=C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Temp\surefire6332826084471731526\surefirebooter8092876439911519206.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, user.variant=, java.vendor.url=https://java.oracle.com/, user.timezone=America/New_York, java.vm.specification.version=21, os.name=Windows 11, sun.java.launcher=SUN_STANDARD, user.country=US, sun.boot.library.path=C:\Program Files\Java\jdk-21\bin, sun.java.command=C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Temp\surefire6332826084471731526\surefirebooter8092876439911519206.jar C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Temp\surefire6332826084471731526 2025-02-10T08-21-16_090-jvmRun1 surefire16461190110287177179tmp surefire_07216693928798218856tmp, jdk.debug=release, sun.cpu.endian=little, user.home=C:\Users\ITS-LT-LNR-4367-1, user.language=en, java.specification.vendor=Oracle Corporation, java.version.date=2024-07-16, java.home=C:\Program Files\Java\jdk-21, file.separator=\, java.vm.compressedOopsMode=Zero based, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=21.0.4+8-LTS-274, user.name=ITS-LT-LNR-4367-1, stdout.encoding=Cp1252, path.separator=;, os.version=10.0, java.runtime.name=Java(TM) SE Runtime Environment, file.encoding=UTF-8, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, java.vendor.url.bug=https://bugreport.java.com/bugreport/, java.io.tmpdir=C:\Users\ITS-LT~1\AppData\Local\Temp\, java.version=21.0.4, user.dir=C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, sun.os.patch.level=, native.encoding=Cp1252, java.library.path=C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\ProgramData\anaconda3\Scripts;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\MongoDB\Server\8.0\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Microsoft\WindowsApps;C:\Users\ITS-LT-LNR-4367-1\.dotnet\tools;C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ITS-LT-LNR-4367-1\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\8.0\bin;C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Programs\mongosh\;., java.vm.info=mixed mode, sharing, stderr.encoding=Cp1252, java.vendor=Oracle Corporation, java.vm.version=21.0.4+8-LTS-274, sun.io.unicode.encoding=UnicodeLittle, java.class.version=65.0}
+08:21:35.886 [main] DEBUG browserStackFileDebugger - Running SDK with classpath: C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Temp\surefire6332826084471731526\surefirebooter8092876439911519206.jar
+08:21:35.884 [main] DEBUG browserStackFileDebugger - Running SDK with properties: {java.specification.version=21, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, java.class.path=C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Temp\surefire6332826084471731526\surefirebooter8092876439911519206.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, user.variant=, java.vendor.url=https://java.oracle.com/, user.timezone=America/New_York, java.vm.specification.version=21, os.name=Windows 11, sun.java.launcher=SUN_STANDARD, user.country=US, sun.boot.library.path=C:\Program Files\Java\jdk-21\bin, sun.java.command=C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Temp\surefire6332826084471731526\surefirebooter8092876439911519206.jar C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Temp\surefire6332826084471731526 2025-02-10T08-21-16_090-jvmRun1 surefire16461190110287177179tmp surefire_07216693928798218856tmp, jdk.debug=release, sun.cpu.endian=little, user.home=C:\Users\ITS-LT-LNR-4367-1, user.language=en, java.specification.vendor=Oracle Corporation, java.version.date=2024-07-16, java.home=C:\Program Files\Java\jdk-21, file.separator=\, java.vm.compressedOopsMode=Zero based, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=21.0.4+8-LTS-274, user.name=ITS-LT-LNR-4367-1, stdout.encoding=Cp1252, path.separator=;, os.version=10.0, java.runtime.name=Java(TM) SE Runtime Environment, file.encoding=UTF-8, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, java.vendor.url.bug=https://bugreport.java.com/bugreport/, java.io.tmpdir=C:\Users\ITS-LT~1\AppData\Local\Temp\, java.version=21.0.4, user.dir=C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, sun.os.patch.level=, native.encoding=Cp1252, java.library.path=C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\ProgramData\anaconda3\Scripts;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\MongoDB\Server\8.0\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Microsoft\WindowsApps;C:\Users\ITS-LT-LNR-4367-1\.dotnet\tools;C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ITS-LT-LNR-4367-1\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\8.0\bin;C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Programs\mongosh\;., java.vm.info=mixed mode, sharing, stderr.encoding=Cp1252, java.vendor=Oracle Corporation, java.vm.version=21.0.4+8-LTS-274, sun.io.unicode.encoding=UnicodeLittle, java.class.version=65.0}
+08:21:35.895 [main] DEBUG browserStackFileDebugger - Running SDK with classpath: C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Temp\surefire6332826084471731526\surefirebooter8092876439911519206.jar
+08:21:35.900 [main] DEBUG browserStackFileDebugger - Running SDK with classpath: C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Temp\surefire6332826084471731526\surefirebooter8092876439911519206.jar
+08:21:36.224 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ITS-LT-LNR-4367-1\\Documents\\COURSE\\Java-Fundamentals\\Day-7\\Junit-05_New, style.color=always, user.dir=C\:\\Users\\ITS-LT-LNR-4367-1\\Documents\\COURSE\\Java-Fundamentals\\Day-7\\Junit-05_New, localrepository=C\:\\Users\\ITS-LT-LNR-4367-1\\.m2\\repository}
+08:21:36.225 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\browserstack.yml
+08:21:36.227 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ITS-LT-LNR-4367-1\\Documents\\COURSE\\Java-Fundamentals\\Day-7\\Junit-05_New, style.color=always, user.dir=C\:\\Users\\ITS-LT-LNR-4367-1\\Documents\\COURSE\\Java-Fundamentals\\Day-7\\Junit-05_New, localrepository=C\:\\Users\\ITS-LT-LNR-4367-1\\.m2\\repository}
+08:21:36.228 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\browserstack.yml
+08:21:36.231 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ITS-LT-LNR-4367-1\\Documents\\COURSE\\Java-Fundamentals\\Day-7\\Junit-05_New, style.color=always, user.dir=C\:\\Users\\ITS-LT-LNR-4367-1\\Documents\\COURSE\\Java-Fundamentals\\Day-7\\Junit-05_New, localrepository=C\:\\Users\\ITS-LT-LNR-4367-1\\.m2\\repository}
+08:21:36.232 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\browserstack.yml
+08:21:36.617 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to TRACE for logger com.browserstack
+08:21:36.618 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to TRACE for logger com.browserstack
+08:21:36.618 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO for logger stdoutPrinter
+08:21:36.618 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO for logger stdoutPrinter
+08:21:36.618 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.30.3
+08:21:36.618 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to TRACE for logger com.browserstack
+08:21:36.618 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.30.3
+08:21:36.618 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO for logger stdoutPrinter
+08:21:36.618 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.30.3
+08:21:36.619 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 9989f78c-e2e4-47ba-a34f-d2f2ca381542
+08:21:36.619 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 3d19bca0-e2f0-4485-812e-b849e7b94f4a
+08:21:36.619 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 1317b76a-d602-4896-9399-4884aac919a1
+08:21:36.619 [main] INFO  c.b.config.BrowserStackConfig - INFO
+08:21:36.619 [main] INFO  c.b.config.BrowserStackConfig - INFO
+08:21:36.619 [main] INFO  c.b.config.BrowserStackConfig - INFO
+08:21:38.286 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-use.browserstack.com","hub-usw.browserstack.com","hub-euw.browserstack.com"]
+08:21:38.343 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-use.browserstack.com","hub-usw.browserstack.com","hub-euw.browserstack.com"]
+08:21:38.380 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-use.browserstack.com","hub-usw.browserstack.com","hub-euw.browserstack.com"]
+08:21:38.538 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 249ms
+08:21:38.597 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 250ms
+08:21:38.675 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 293ms
+08:21:38.997 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-usw.browserstack.com HUB IS: 455ms
+08:21:39.045 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-usw.browserstack.com HUB IS: 444ms
+08:21:39.147 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-usw.browserstack.com HUB IS: 469ms
+08:21:39.530 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 531ms
+08:21:39.532 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-use.browserstack.com
+08:21:39.539 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:21:39.544 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+08:21:39.544 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:21:39.588 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 542ms
+08:21:39.590 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-use.browserstack.com
+08:21:39.597 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:21:39.603 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+08:21:39.604 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:21:39.706 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 558ms
+08:21:39.707 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-use.browserstack.com
+08:21:39.714 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:21:39.720 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+08:21:39.721 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:21:40.446 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New, TestClass :: tests\SingleTest
+08:21:40.528 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+08:21:40.547 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New, TestClass :: tests\SingleTest
+08:21:40.556 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+08:21:40.568 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+08:21:40.577 [ForkJoinPool-1-worker-1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:21:40.624 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+08:21:40.646 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+08:21:40.667 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+08:21:40.680 [ForkJoinPool-1-worker-1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:21:40.805 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New, TestClass :: tests\SingleTest
+08:21:40.899 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+08:21:40.948 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+08:21:40.961 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+08:21:40.972 [ForkJoinPool-1-worker-1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:21:41.902 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:21:41.904 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:21:41.904 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:21:41.920 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:21:41.920 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:21:41.921 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:21:42.016 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:21:42.028 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:21:42.035 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:21:42.035 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:21:42.036 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:21:42.148 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:21:42.582 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 1739193702582
+
+08:21:42.592 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 5
+
+08:21:42.593 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 1872
+08:21:42.600 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 1872
+08:21:42.677 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 1739193702677
+
+08:21:42.689 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 5
+
+08:21:42.690 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 1872
+08:21:42.694 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 1872
+08:21:42.861 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 401
+08:21:42.862 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 401
+08:21:42.862 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [OBSERVABILITY] Non-200 Response 401 with error 
+08:21:42.864 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-02-10T13:21:42.862940400Z][ OBSERVABILITY ] EXCEPTION IN BATCH REQUEST TO TEST OBSERVABILITY : com.browserstack.testOps.RequestException: Non 200 response
+	at com.browserstack.testOps.RequestException.non200(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsString(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.events(Unknown Source)
+	at com.browserstack.testOps.Listener.c(Unknown Source)
+	at com.browserstack.utils.RequestBatcher.a(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+08:21:42.865 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 401
+08:21:42.866 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 401
+08:21:42.866 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [OBSERVABILITY] Non-200 Response 401 with error 
+08:21:42.867 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-02-10T13:21:42.866264300Z][ OBSERVABILITY ] EXCEPTION IN BATCH REQUEST TO TEST OBSERVABILITY : com.browserstack.testOps.RequestException: Non 200 response
+	at com.browserstack.testOps.RequestException.non200(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsString(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.events(Unknown Source)
+	at com.browserstack.testOps.Listener.c(Unknown Source)
+	at com.browserstack.utils.RequestBatcher.a(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+08:21:42.973 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 1739193702973
+
+08:21:42.983 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 5
+
+08:21:42.987 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 1872
+08:21:42.990 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 1872
+08:21:42.993 [pool-3-thread-1] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload, response: OK
+08:21:42.993 [pool-3-thread-1] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload, response: OK
+08:21:42.996 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+08:21:42.998 [ForkJoinPool-1-worker-1] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 40
+08:21:43.000 [ForkJoinPool-1-worker-1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:21:43.005 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+08:21:43.032 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+08:21:43.036 [ForkJoinPool-1-worker-1] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 40
+08:21:43.038 [ForkJoinPool-1-worker-1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:21:43.041 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+08:21:43.049 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+08:21:43.051 [ForkJoinPool-1-worker-1] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 40
+08:21:43.054 [ForkJoinPool-1-worker-1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:21:43.057 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+08:21:43.131 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 401
+08:21:43.132 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 401
+08:21:43.132 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [OBSERVABILITY] Non-200 Response 401 with error 
+08:21:43.132 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-02-10T13:21:43.132666200Z][ OBSERVABILITY ] EXCEPTION IN BATCH REQUEST TO TEST OBSERVABILITY : com.browserstack.testOps.RequestException: Non 200 response
+	at com.browserstack.testOps.RequestException.non200(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsString(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.events(Unknown Source)
+	at com.browserstack.testOps.Listener.c(Unknown Source)
+	at com.browserstack.utils.RequestBatcher.a(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+08:21:43.292 [pool-3-thread-1] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload, response: OK
+08:21:43.697 [ForkJoinPool-1-worker-1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:21:43.706 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+08:21:43.707 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+08:21:43.710 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+08:21:43.710 [ForkJoinPool-1-worker-1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:21:43.800 [ForkJoinPool-1-worker-1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:21:43.810 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+08:21:43.811 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+08:21:43.815 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+08:21:43.816 [ForkJoinPool-1-worker-1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:21:43.860 [ForkJoinPool-1-worker-1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:21:43.873 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+08:21:43.874 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+08:21:43.880 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+08:21:43.881 [ForkJoinPool-1-worker-1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:21:43.914 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Serenity
+08:21:43.915 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+08:21:43.915 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2025-02-10T13:21:43.915889100Z][ OBSERVABILITY ] Processing stop observability
+08:21:43.915 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+08:21:43.917 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Serenity
+08:21:43.917 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+08:21:43.917 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 10825
+08:21:43.917 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2025-02-10T13:21:43.917123600Z][ OBSERVABILITY ] Processing stop observability
+08:21:43.918 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 10825
+08:21:43.918 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+08:21:43.920 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 10867
+08:21:43.921 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 10867
+08:21:43.919 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Serenity
+08:21:43.923 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+08:21:43.923 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2025-02-10T13:21:43.923135700Z][ OBSERVABILITY ] Processing stop observability
+08:21:43.923 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+08:21:43.925 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 10809
+08:21:43.926 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 10809
+08:21:43.953 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 401
+08:21:43.953 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 401
+08:21:43.953 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [OBSERVABILITY] Non-200 Response 401 with error 
+08:21:43.954 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-02-10T13:21:43.953809Z][ OBSERVABILITY ] EXCEPTION IN BATCH REQUEST TO TEST OBSERVABILITY : com.browserstack.testOps.RequestException: Non 200 response
+	at com.browserstack.testOps.RequestException.non200(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsString(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.events(Unknown Source)
+	at com.browserstack.testOps.Listener.c(Unknown Source)
+	at com.browserstack.utils.RequestBatcher.a(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+08:21:43.959 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 401
+08:21:43.959 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 401
+08:21:43.959 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 401
+08:21:43.959 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [OBSERVABILITY] Non-200 Response 401 with error 
+08:21:43.959 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 401
+08:21:43.959 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [OBSERVABILITY] Non-200 Response 401 with error 
+08:21:43.959 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-02-10T13:21:43.959923200Z][ OBSERVABILITY ] EXCEPTION IN BATCH REQUEST TO TEST OBSERVABILITY : com.browserstack.testOps.RequestException: Non 200 response
+	at com.browserstack.testOps.RequestException.non200(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsString(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.events(Unknown Source)
+	at com.browserstack.testOps.Listener.c(Unknown Source)
+	at com.browserstack.utils.RequestBatcher.a(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+08:21:43.959 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-02-10T13:21:43.959923200Z][ OBSERVABILITY ] EXCEPTION IN BATCH REQUEST TO TEST OBSERVABILITY : com.browserstack.testOps.RequestException: Non 200 response
+	at com.browserstack.testOps.RequestException.non200(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsString(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.events(Unknown Source)
+	at com.browserstack.testOps.Listener.c(Unknown Source)
+	at com.browserstack.utils.RequestBatcher.a(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+08:21:44.284 [pool-3-thread-1] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload, response: OK
+08:21:44.285 [pool-3-thread-1] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload, response: OK
+08:21:44.285 [pool-3-thread-1] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload, response: OK
+08:21:44.334 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:21:44.334 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:21:44.335 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:21:44.883 [main] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle Config File does not exist.
+08:21:44.885 [Thread-0] DEBUG c.browserstack.BrowserStackJavaAgent - Starting final execution
+08:21:44.886 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+08:21:44.887 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind stopBuildUpstream
+08:21:44.887 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: PUT api/v1/builds//stop with request size 65
+08:21:44.887 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: PUT https://collector-observability.browserstack.com/api/v1/builds//stop with request size 65
+08:21:44.907 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 401
+08:21:44.907 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 401
+08:21:44.908 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [OBSERVABILITY] Non-200 Response 401 with error 
+08:21:44.908 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - Observability Stop request failed. Retrying.. Exception: com.browserstack.testOps.RequestException: Non 200 response
+	at com.browserstack.testOps.RequestException.non200(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsString(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.stop(Unknown Source)
+	at com.browserstack.testOps.Listener.a(Unknown Source)
+	at com.browserstack.testOps.Listener.a(Unknown Source)
+	at com.browserstack.testOps.Listener.onComplete(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.browserstack.utils.ConditionalInvocationHandler.invoke(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy8.onComplete(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.run(Unknown Source)
+
+08:21:45.016 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload, response: OK
+08:21:45.017 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: PUT api/v1/builds//stop with request size 65
+08:21:45.017 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: PUT https://collector-observability.browserstack.com/api/v1/builds//stop with request size 65
+08:21:45.041 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 401
+08:21:45.042 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 401
+08:21:45.042 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [OBSERVABILITY] Non-200 Response 401 with error 
+08:21:45.042 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-02-10T13:21:45.042111300Z][ TESTHUB ] Exception in stop build request : com.browserstack.testOps.RequestException: Non 200 response
+	at com.browserstack.testOps.RequestException.non200(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsString(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.stop(Unknown Source)
+	at com.browserstack.testOps.Listener.a(Unknown Source)
+	at com.browserstack.testOps.Listener.a(Unknown Source)
+	at com.browserstack.testOps.Listener.onComplete(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.browserstack.utils.ConditionalInvocationHandler.invoke(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy8.onComplete(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.run(Unknown Source)
+
+
+08:21:45.137 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload, response: OK
+08:21:45.138 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:21:45.143 [Thread-0] DEBUG c.b.utils.FrameworkDetectionUtils - Couldn't find dependency class: appium
+08:21:45.146 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+08:21:45.191 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"YOUR_ACCESS_KEY","userName":"YOUR_USERNAME","event_properties":{"isPercyAutoEnabled":false,"language":"java","sdkRunId":"e1100c49-1278-4e8c-9a9d-416613b929ae","buildIdentifier":"#1","testhub_uuid":"","detectedAppiumVersion":"null","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":false,"turboscale":false},"hostname":"ITS-LT-LNR-4367","measures":{"sdk:driver:quit":0.19,"sdk:testhub":3609.9980999976397,"sdk:automate:local":9372.348000004888,"sdk:automate:hub-management":2715.4,"sdk:driver:pre-initialization":2.7,"sdk:setup":6857.13,"sdk:pre-test":24.779400005936623,"sdk:o11y:print-buildlink":250.78270000219345,"sdk:hook":31.81},"frameworkVersion":"","productUsage":{"testObservability":{"buildHashedId":"","manuallySet":true,"enabled":false}},"browserStackConfig":{"browserstackLocal":true,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"AUTO","browserStackLocalOptions":{"localIdentifier":"10_Feb_821_ITS_LT_LNR_4367_SJxd","key":"****"},"percyOptions":null,"testContextOptions":{"skipSessionStatus":false,"serenityOverridePlugin":false,"skipSessionName":false},"platforms":[{"browser":"Chrome","device":null,"os":"OS X","platformCaps":{"os":"OS X","osVersion":"Big Sur","browserVersion":"latest","browserName":"Chrome"},"browserVersion":"latest","osVersion":"Big Sur","capabilities":{},"platformString":"OS X, Big Sur, Chrome, latest","customVariables":"****"},{"browser":"Edge","device":null,"os":"Windows","platformCaps":{"os":"Windows","osVersion":10,"browserVersion":"latest","browserName":"Edge"},"browserVersion":"latest","osVersion":"10","capabilities":{},"platformString":"Windows, 10, Edge, latest","customVariables":"****"},{"browser":"chrome","device":"Samsung Galaxy S22 Ultra","os":null,"platformCaps":{"osVersion":12.0,"browserName":"chrome","deviceName":"Samsung Galaxy S22 Ultra"},"browserVersion":null,"osVersion":"12.0","capabilities":{"deviceName":"Samsung Galaxy S22 Ultra"},"platformString":"Samsung Galaxy S22 Ultra, 12.0, chrome","customVariables":"****"}],"parallelsPerPlatform":1,"framework":"junit5","accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":false,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"automationFrameworkVersion":"4.1.0","percyBuildId":null,"product":"[automate]","buildName":"browserstack build","os":"Windows 11","languageVersion":"21.0.4","appiumVersion":"","frameworkDetectionInstrumentation":{},"userFramework":"junit5","detectedDependencies":"junit4, junit5","referrer":"junit5-javaagent\/1.30.3","framework":"junit5","locationTrigger":"BSTACK_BUILD_END","accessibilityConfiguration":{"pollingTimeout":30},"language_framework":"java_junit5","detectedFramework":"none","testOrchestration":{"abortBuildOnFailure":{"enabled":false},"retryTestsOnFailure":{"enabled":false},"userConfig":{}},"detectedSeleniumVersion":"4.1.0","automationFramework":"selenium","seleniumVersion":"4.1.0"}}
+08:21:45.391 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful, response: {"message":"Unauthorized"}
+08:21:45.644 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - unable to upload logs : 401
+08:21:45.646 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:21:45.646 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle Config File does not exist.
+08:21:45.837 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Execute API call to get build details failed - Unexpected character (H) at position 0.
+08:21:45.840 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:21:45.840 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: e1100c49-1278-4e8c-9a9d-416613b929ae, testhub id: 
+08:21:45.841 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+08:21:45.842 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:21:45.850 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://eds.browserstack.com/send_sdk_events with request size 642
+08:21:46.045 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+08:21:46.045 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Data sent successfully to https://eds.browserstack.com with status 200 {"event_type":"sdk_events","data":{"created_day":"2025-02-10T13:21:45.000848 +0000","event_name":"SDKFeaturePerformance","event_json":"{measures=[{\"duration\":1919.242300003767,\"eventName\":\"sdk:automate:hub-management\",\"startTime\":1.285826185254E8,\"success\":true,\"worker\":1,\"failure\":null,\"details\":null,\"entryType\":\"measure\",\"platform\":0,\"command\":null,\"testName\":null,\"hookType\":\"\"}], sdkRunId=e1100c49-1278-4e8c-9a9d-416613b929ae}","user_data":"YOUR_USERNAME","testhub_uuid":"","host_info":"{\"hostname\":\"ITS-LT-LNR-4367\",\"arch\":\"amd64\",\"type\":null,\"version\":\"10.0\",\"platform\":\"Windows 11\"}"}} {Content-Type=application/json}
+08:23:04.481 [main] DEBUG browserStackFileDebugger - Running SDK with properties: {java.specification.version=21, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, java.class.path=C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Temp\surefire4617591106954204354\surefirebooter11675161300050812651.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, user.variant=, java.vendor.url=https://java.oracle.com/, user.timezone=America/New_York, java.vm.specification.version=21, os.name=Windows 11, sun.java.launcher=SUN_STANDARD, user.country=US, sun.boot.library.path=C:\Program Files\Java\jdk-21\bin, sun.java.command=C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Temp\surefire4617591106954204354\surefirebooter11675161300050812651.jar C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Temp\surefire4617591106954204354 2025-02-10T08-23-03_554-jvmRun1 surefire4983663573512025488tmp surefire_017024901243604814109tmp, jdk.debug=release, sun.cpu.endian=little, user.home=C:\Users\ITS-LT-LNR-4367-1, user.language=en, java.specification.vendor=Oracle Corporation, java.version.date=2024-07-16, java.home=C:\Program Files\Java\jdk-21, file.separator=\, java.vm.compressedOopsMode=Zero based, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=21.0.4+8-LTS-274, user.name=ITS-LT-LNR-4367-1, stdout.encoding=Cp1252, path.separator=;, os.version=10.0, java.runtime.name=Java(TM) SE Runtime Environment, file.encoding=UTF-8, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, java.vendor.url.bug=https://bugreport.java.com/bugreport/, java.io.tmpdir=C:\Users\ITS-LT~1\AppData\Local\Temp\, java.version=21.0.4, user.dir=C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, sun.os.patch.level=, native.encoding=Cp1252, java.library.path=C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\ProgramData\anaconda3\Scripts;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\MongoDB\Server\8.0\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Microsoft\WindowsApps;C:\Users\ITS-LT-LNR-4367-1\.dotnet\tools;C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ITS-LT-LNR-4367-1\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\8.0\bin;C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Programs\mongosh\;., java.vm.info=mixed mode, sharing, stderr.encoding=Cp1252, java.vendor=Oracle Corporation, java.vm.version=21.0.4+8-LTS-274, sun.io.unicode.encoding=UnicodeLittle, java.class.version=65.0}
+08:23:04.493 [main] DEBUG browserStackFileDebugger - Running SDK with classpath: C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Temp\surefire4617591106954204354\surefirebooter11675161300050812651.jar
+08:23:04.504 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.0
+08:23:04.504 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+08:23:04.729 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ITS-LT-LNR-4367-1\\Documents\\COURSE\\Java-Fundamentals\\Day-7\\Junit-05_New, style.color=always, user.dir=C\:\\Users\\ITS-LT-LNR-4367-1\\Documents\\COURSE\\Java-Fundamentals\\Day-7\\Junit-05_New, localrepository=C\:\\Users\\ITS-LT-LNR-4367-1\\.m2\\repository}
+08:23:04.729 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\browserstack.yml
+08:23:05.094 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to TRACE for logger com.browserstack
+08:23:05.094 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO for logger stdoutPrinter
+08:23:05.107 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire4983663573512025488tmp
+08:23:05.108 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire4983663573512025488tmp
+08:23:05.108 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.30.3
+08:23:05.108 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+08:23:05.112 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for INT
+08:23:05.112 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for TERM
+08:23:05.112 [main] DEBUG c.b.utils.ExitSignalHandler - Unable to attach signal handler for HUP Unknown signal: HUP
+08:23:05.112 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for ABRT
+08:23:05.113 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 5f03819a-e3ed-46e8-ba50-77cc9be31448
+08:23:05.113 [main] INFO  c.b.config.BrowserStackConfig - INFO
+08:23:05.600 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-use.browserstack.com","hub-usw.browserstack.com","hub-euw.browserstack.com"]
+08:23:05.818 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 217ms
+08:23:06.324 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-usw.browserstack.com HUB IS: 503ms
+08:23:06.902 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 576ms
+08:23:06.904 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-use.browserstack.com
+08:23:06.954 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Couldn't find dependency class: appium
+08:23:06.958 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestAttempted with data: {"event_type":"SDKTestAttempted","accessKey":"YOUR_ACCESS_KEY","userName":"YOUR_USERNAME","event_properties":{"product":"[automate]","buildName":"browserstack build","os":"Windows 11","languageVersion":"21.0.4","appiumVersion":"","frameworkDetectionInstrumentation":{},"language":"java","sdkRunId":"5f03819a-e3ed-46e8-ba50-77cc9be31448","buildIdentifier":"#2","userFramework":"junit5","testhub_uuid":"","detectedAppiumVersion":"null","detectedDependencies":"junit4, junit5","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true,"turboscale":false},"referrer":"junit5-javaagent\/1.30.3","hostname":"ITS-LT-LNR-4367","framework":"junit5","frameworkVersion":"","language_framework":"java_junit5","detectedFramework":"none","detectedSeleniumVersion":"4.1.0","automationFramework":"selenium","automationFrameworkVersion":"4.1.0","seleniumVersion":"4.1.0"}}
+08:23:07.170 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted, response: {"message":"Unauthorized"}
+08:23:07.171 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+08:23:07.423 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:23:07.423 [main] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind launchTestSession
+08:23:07.424 [main] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v2/builds with request size 1312
+08:23:07.424 [main] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v2/builds with request size 1312
+08:23:07.636 [main] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 401
+08:23:07.636 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 401
+08:23:07.636 [main] DEBUG c.browserstack.testOps.RequestUtils - [OBSERVABILITY] Non-200 Response 401 with error 
+08:23:07.637 [main] DEBUG com.browserstack.testOps.Listener - Source: testhub, Error trace ID: 2417d5f5-b47f-43cd-b95b-f59601586da6, Code: null
+08:23:07.637 [main] INFO  c.b.config.BrowserStackConfig - ERROR
+08:23:07.637 [main] WARN  com.browserstack.testOps.Listener - Exception in testhub build creation Access to BrowserStack denied due to incorrect credentials.
+08:23:07.638 [main] INFO  c.browserstack.utils.LogReportingAPI - 
+[2025-02-10T13:23:07.637704800Z][ TESTHUB ] EXCEPTION IN BUILD START EVENT : com.browserstack.testOps.RequestException: Non 200 response
+	at com.browserstack.testOps.RequestException.non200(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsJson(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.launch(Unknown Source)
+	at com.browserstack.testOps.Listener.onStart(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.browserstack.utils.ConditionalInvocationHandler.invoke(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy8.onStart(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+
+08:23:07.638 [main] INFO  c.b.config.BrowserStackConfig - INFO
+08:23:07.639 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+08:23:07.642 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 10_Feb_823_ITS_LT_LNR_4367_hqum
+08:23:10.972 [main] ERROR com.browserstack.LocalFactory - Initialization of BrowserStack Local failed com.browserstack.local.LocalException: Disconnected.
+08:23:10.972 [main] DEBUG c.b.monitoring.PerformanceTester - Exception in marking performance status: Initialization of BrowserStack Local failed Disconnected.
+08:23:10.974 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:23:10.974 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:23:10.988 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:23:10.996 [Thread-7] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire4983663573512025488tmp
+08:23:10.997 [Thread-7] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire4983663573512025488tmp
+08:23:10.998 [Thread-6] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire4983663573512025488tmp
+08:23:10.998 [Thread-8] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire4983663573512025488tmp
+08:23:10.999 [Thread-6] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire4983663573512025488tmp
+08:23:10.999 [Thread-8] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire4983663573512025488tmp
+08:23:11.007 [Thread-7] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire4983663573512025488tmp
+08:23:11.007 [Thread-7] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire4983663573512025488tmp
+08:23:11.008 [Thread-8] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire4983663573512025488tmp
+08:23:11.008 [Thread-8] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire4983663573512025488tmp
+08:23:11.008 [Thread-6] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire4983663573512025488tmp
+08:23:11.009 [Thread-6] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire4983663573512025488tmp
+08:23:11.684 [main] DEBUG browserStackFileDebugger - Running SDK with properties: {java.specification.version=21, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, java.class.path=C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Temp\surefire4617591106954204354\surefirebooter11675161300050812651.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, user.variant=, java.vendor.url=https://java.oracle.com/, user.timezone=America/New_York, java.vm.specification.version=21, os.name=Windows 11, sun.java.launcher=SUN_STANDARD, user.country=US, sun.boot.library.path=C:\Program Files\Java\jdk-21\bin, sun.java.command=C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Temp\surefire4617591106954204354\surefirebooter11675161300050812651.jar C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Temp\surefire4617591106954204354 2025-02-10T08-23-03_554-jvmRun1 surefire4983663573512025488tmp surefire_017024901243604814109tmp, jdk.debug=release, sun.cpu.endian=little, user.home=C:\Users\ITS-LT-LNR-4367-1, user.language=en, java.specification.vendor=Oracle Corporation, java.version.date=2024-07-16, java.home=C:\Program Files\Java\jdk-21, file.separator=\, java.vm.compressedOopsMode=Zero based, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=21.0.4+8-LTS-274, user.name=ITS-LT-LNR-4367-1, stdout.encoding=Cp1252, path.separator=;, os.version=10.0, java.runtime.name=Java(TM) SE Runtime Environment, file.encoding=UTF-8, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, java.vendor.url.bug=https://bugreport.java.com/bugreport/, java.io.tmpdir=C:\Users\ITS-LT~1\AppData\Local\Temp\, java.version=21.0.4, user.dir=C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, sun.os.patch.level=, native.encoding=Cp1252, java.library.path=C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\ProgramData\anaconda3\Scripts;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\MongoDB\Server\8.0\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Microsoft\WindowsApps;C:\Users\ITS-LT-LNR-4367-1\.dotnet\tools;C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ITS-LT-LNR-4367-1\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\8.0\bin;C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Programs\mongosh\;., java.vm.info=mixed mode, sharing, stderr.encoding=Cp1252, java.vendor=Oracle Corporation, java.vm.version=21.0.4+8-LTS-274, sun.io.unicode.encoding=UnicodeLittle, java.class.version=65.0}
+08:23:11.685 [main] DEBUG browserStackFileDebugger - Running SDK with properties: {java.specification.version=21, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, java.class.path=C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Temp\surefire4617591106954204354\surefirebooter11675161300050812651.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, user.variant=, java.vendor.url=https://java.oracle.com/, user.timezone=America/New_York, java.vm.specification.version=21, os.name=Windows 11, sun.java.launcher=SUN_STANDARD, user.country=US, sun.boot.library.path=C:\Program Files\Java\jdk-21\bin, sun.java.command=C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Temp\surefire4617591106954204354\surefirebooter11675161300050812651.jar C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Temp\surefire4617591106954204354 2025-02-10T08-23-03_554-jvmRun1 surefire4983663573512025488tmp surefire_017024901243604814109tmp, jdk.debug=release, sun.cpu.endian=little, user.home=C:\Users\ITS-LT-LNR-4367-1, user.language=en, java.specification.vendor=Oracle Corporation, java.version.date=2024-07-16, java.home=C:\Program Files\Java\jdk-21, file.separator=\, java.vm.compressedOopsMode=Zero based, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=21.0.4+8-LTS-274, user.name=ITS-LT-LNR-4367-1, stdout.encoding=Cp1252, path.separator=;, os.version=10.0, java.runtime.name=Java(TM) SE Runtime Environment, file.encoding=UTF-8, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, java.vendor.url.bug=https://bugreport.java.com/bugreport/, java.io.tmpdir=C:\Users\ITS-LT~1\AppData\Local\Temp\, java.version=21.0.4, user.dir=C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, sun.os.patch.level=, native.encoding=Cp1252, java.library.path=C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\ProgramData\anaconda3\Scripts;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\MongoDB\Server\8.0\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Microsoft\WindowsApps;C:\Users\ITS-LT-LNR-4367-1\.dotnet\tools;C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ITS-LT-LNR-4367-1\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\8.0\bin;C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Programs\mongosh\;., java.vm.info=mixed mode, sharing, stderr.encoding=Cp1252, java.vendor=Oracle Corporation, java.vm.version=21.0.4+8-LTS-274, sun.io.unicode.encoding=UnicodeLittle, java.class.version=65.0}
+08:23:11.698 [main] DEBUG browserStackFileDebugger - Running SDK with classpath: C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Temp\surefire4617591106954204354\surefirebooter11675161300050812651.jar
+08:23:11.698 [main] DEBUG browserStackFileDebugger - Running SDK with classpath: C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Temp\surefire4617591106954204354\surefirebooter11675161300050812651.jar
+08:23:11.701 [main] DEBUG browserStackFileDebugger - Running SDK with properties: {java.specification.version=21, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, java.class.path=C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Temp\surefire4617591106954204354\surefirebooter11675161300050812651.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, user.variant=, java.vendor.url=https://java.oracle.com/, user.timezone=America/New_York, java.vm.specification.version=21, os.name=Windows 11, sun.java.launcher=SUN_STANDARD, user.country=US, sun.boot.library.path=C:\Program Files\Java\jdk-21\bin, sun.java.command=C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Temp\surefire4617591106954204354\surefirebooter11675161300050812651.jar C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Temp\surefire4617591106954204354 2025-02-10T08-23-03_554-jvmRun1 surefire4983663573512025488tmp surefire_017024901243604814109tmp, jdk.debug=release, sun.cpu.endian=little, user.home=C:\Users\ITS-LT-LNR-4367-1, user.language=en, java.specification.vendor=Oracle Corporation, java.version.date=2024-07-16, java.home=C:\Program Files\Java\jdk-21, file.separator=\, java.vm.compressedOopsMode=Zero based, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=21.0.4+8-LTS-274, user.name=ITS-LT-LNR-4367-1, stdout.encoding=Cp1252, path.separator=;, os.version=10.0, java.runtime.name=Java(TM) SE Runtime Environment, file.encoding=UTF-8, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, java.vendor.url.bug=https://bugreport.java.com/bugreport/, java.io.tmpdir=C:\Users\ITS-LT~1\AppData\Local\Temp\, java.version=21.0.4, user.dir=C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, sun.os.patch.level=, native.encoding=Cp1252, java.library.path=C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\ProgramData\anaconda3\Scripts;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\MongoDB\Server\8.0\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Microsoft\WindowsApps;C:\Users\ITS-LT-LNR-4367-1\.dotnet\tools;C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ITS-LT-LNR-4367-1\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\8.0\bin;C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Programs\mongosh\;., java.vm.info=mixed mode, sharing, stderr.encoding=Cp1252, java.vendor=Oracle Corporation, java.vm.version=21.0.4+8-LTS-274, sun.io.unicode.encoding=UnicodeLittle, java.class.version=65.0}
+08:23:11.724 [main] DEBUG browserStackFileDebugger - Running SDK with classpath: C:\Users\ITS-LT-LNR-4367-1\AppData\Local\Temp\surefire4617591106954204354\surefirebooter11675161300050812651.jar
+08:23:11.956 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ITS-LT-LNR-4367-1\\Documents\\COURSE\\Java-Fundamentals\\Day-7\\Junit-05_New, style.color=always, user.dir=C\:\\Users\\ITS-LT-LNR-4367-1\\Documents\\COURSE\\Java-Fundamentals\\Day-7\\Junit-05_New, localrepository=C\:\\Users\\ITS-LT-LNR-4367-1\\.m2\\repository}
+08:23:11.957 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\browserstack.yml
+08:23:11.971 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ITS-LT-LNR-4367-1\\Documents\\COURSE\\Java-Fundamentals\\Day-7\\Junit-05_New, style.color=always, user.dir=C\:\\Users\\ITS-LT-LNR-4367-1\\Documents\\COURSE\\Java-Fundamentals\\Day-7\\Junit-05_New, localrepository=C\:\\Users\\ITS-LT-LNR-4367-1\\.m2\\repository}
+08:23:11.971 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\browserstack.yml
+08:23:11.977 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ITS-LT-LNR-4367-1\\Documents\\COURSE\\Java-Fundamentals\\Day-7\\Junit-05_New, style.color=always, user.dir=C\:\\Users\\ITS-LT-LNR-4367-1\\Documents\\COURSE\\Java-Fundamentals\\Day-7\\Junit-05_New, localrepository=C\:\\Users\\ITS-LT-LNR-4367-1\\.m2\\repository}
+08:23:11.978 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\browserstack.yml
+08:23:12.296 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to TRACE for logger com.browserstack
+08:23:12.296 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO for logger stdoutPrinter
+08:23:12.296 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.30.3
+08:23:12.297 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 6a3b8adb-e4dd-457c-a394-80b32ec67e39
+08:23:12.298 [main] INFO  c.b.config.BrowserStackConfig - INFO
+08:23:12.309 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to TRACE for logger com.browserstack
+08:23:12.309 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO for logger stdoutPrinter
+08:23:12.309 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.30.3
+08:23:12.310 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 7561a711-196b-4d50-b9bb-eba4c867eab7
+08:23:12.310 [main] INFO  c.b.config.BrowserStackConfig - INFO
+08:23:12.327 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to TRACE for logger com.browserstack
+08:23:12.327 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO for logger stdoutPrinter
+08:23:12.327 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.30.3
+08:23:12.329 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 82e093d5-c8b0-4fb0-a104-6311ef8c893e
+08:23:12.329 [main] INFO  c.b.config.BrowserStackConfig - INFO
+08:23:12.892 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-use.browserstack.com","hub-usw.browserstack.com","hub-euw.browserstack.com"]
+08:23:12.934 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-use.browserstack.com","hub-usw.browserstack.com","hub-euw.browserstack.com"]
+08:23:12.945 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-use.browserstack.com","hub-usw.browserstack.com","hub-euw.browserstack.com"]
+08:23:13.155 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 263ms
+08:23:13.167 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 232ms
+08:23:13.239 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 292ms
+08:23:13.662 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-usw.browserstack.com HUB IS: 489ms
+08:23:13.717 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-usw.browserstack.com HUB IS: 473ms
+08:23:13.971 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-usw.browserstack.com HUB IS: 810ms
+08:23:14.251 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 532ms
+08:23:14.254 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-use.browserstack.com
+08:23:14.258 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 595ms
+08:23:14.259 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-use.browserstack.com
+08:23:14.260 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:23:14.265 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+08:23:14.266 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:23:14.266 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:23:14.272 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+08:23:14.274 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:23:14.562 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 590ms
+08:23:14.564 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-use.browserstack.com
+08:23:14.579 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:23:14.594 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+08:23:14.595 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:23:15.095 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New, TestClass :: tests\SingleTest
+08:23:15.096 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New, TestClass :: tests\SingleTest
+08:23:15.198 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+08:23:15.224 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+08:23:15.232 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+08:23:15.239 [ForkJoinPool-1-worker-1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:23:15.260 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+08:23:15.277 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+08:23:15.286 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+08:23:15.292 [ForkJoinPool-1-worker-1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:23:15.717 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New, TestClass :: tests\SingleTest
+08:23:15.777 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+08:23:15.794 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+08:23:15.804 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+08:23:15.811 [ForkJoinPool-1-worker-1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:23:16.241 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:23:16.242 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:23:16.242 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:23:16.295 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:23:16.295 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:23:16.295 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:23:16.388 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:23:16.444 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:23:16.801 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:23:16.802 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:23:16.802 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:23:16.923 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+08:23:17.251 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 1739193797251
+
+08:23:17.260 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 5
+
+08:23:17.261 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 1872
+08:23:17.262 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 1872
+08:23:17.296 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 1739193797296
+
+08:23:17.303 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+08:23:17.303 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 5
+
+08:23:17.304 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 1872
+08:23:17.305 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 1872
+08:23:17.308 [ForkJoinPool-1-worker-1] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 40
+08:23:17.310 [ForkJoinPool-1-worker-1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:23:17.314 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+08:23:17.409 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 401
+08:23:17.410 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 401
+08:23:17.410 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [OBSERVABILITY] Non-200 Response 401 with error 
+08:23:17.412 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-02-10T13:23:17.410410100Z][ OBSERVABILITY ] EXCEPTION IN BATCH REQUEST TO TEST OBSERVABILITY : com.browserstack.testOps.RequestException: Non 200 response
+	at com.browserstack.testOps.RequestException.non200(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsString(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.events(Unknown Source)
+	at com.browserstack.testOps.Listener.c(Unknown Source)
+	at com.browserstack.utils.RequestBatcher.a(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+08:23:17.441 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+08:23:17.444 [ForkJoinPool-1-worker-1] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 40
+08:23:17.446 [ForkJoinPool-1-worker-1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:23:17.451 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 401
+08:23:17.451 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 401
+08:23:17.451 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [OBSERVABILITY] Non-200 Response 401 with error 
+08:23:17.452 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-02-10T13:23:17.451977400Z][ OBSERVABILITY ] EXCEPTION IN BATCH REQUEST TO TEST OBSERVABILITY : com.browserstack.testOps.RequestException: Non 200 response
+	at com.browserstack.testOps.RequestException.non200(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsString(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.events(Unknown Source)
+	at com.browserstack.testOps.Listener.c(Unknown Source)
+	at com.browserstack.utils.RequestBatcher.a(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+08:23:17.454 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+08:23:17.525 [pool-3-thread-1] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload, response: OK
+08:23:17.612 [pool-3-thread-1] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload, response: OK
+08:23:17.828 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 1739193797828
+
+08:23:17.835 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+08:23:17.843 [ForkJoinPool-1-worker-1] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 40
+08:23:17.846 [ForkJoinPool-1-worker-1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:23:17.850 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+08:23:17.856 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 5
+
+08:23:17.858 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 1869
+08:23:17.859 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 1869
+08:23:18.008 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 401
+08:23:18.009 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 401
+08:23:18.009 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [OBSERVABILITY] Non-200 Response 401 with error 
+08:23:18.010 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-02-10T13:23:18.009795700Z][ OBSERVABILITY ] EXCEPTION IN BATCH REQUEST TO TEST OBSERVABILITY : com.browserstack.testOps.RequestException: Non 200 response
+	at com.browserstack.testOps.RequestException.non200(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsString(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.events(Unknown Source)
+	at com.browserstack.testOps.Listener.c(Unknown Source)
+	at com.browserstack.utils.RequestBatcher.a(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+08:23:18.122 [pool-3-thread-1] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload, response: OK
+08:23:18.250 [ForkJoinPool-1-worker-1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:23:18.259 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+08:23:18.260 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+08:23:18.263 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+08:23:18.265 [ForkJoinPool-1-worker-1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:23:18.385 [ForkJoinPool-1-worker-1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:23:18.392 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+08:23:18.394 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+08:23:18.397 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+08:23:18.398 [ForkJoinPool-1-worker-1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:23:19.985 [ForkJoinPool-1-worker-1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:23:19.993 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+08:23:19.994 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+08:23:19.997 [ForkJoinPool-1-worker-1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+08:23:19.998 [ForkJoinPool-1-worker-1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:23:20.018 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Serenity
+08:23:20.019 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+08:23:20.019 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2025-02-10T13:23:20.019440500Z][ OBSERVABILITY ] Processing stop observability
+08:23:20.019 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+08:23:20.020 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 10806
+08:23:20.020 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Serenity
+08:23:20.020 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+08:23:20.020 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2025-02-10T13:23:20.020441600Z][ OBSERVABILITY ] Processing stop observability
+08:23:20.020 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Serenity
+08:23:20.021 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+08:23:20.021 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+08:23:20.021 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2025-02-10T13:23:20.021439500Z][ OBSERVABILITY ] Processing stop observability
+08:23:20.021 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 10806
+08:23:20.022 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+08:23:20.022 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 10867
+08:23:20.022 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 10825
+08:23:20.024 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 10867
+08:23:20.024 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 10825
+08:23:20.051 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 401
+08:23:20.052 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 401
+08:23:20.052 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [OBSERVABILITY] Non-200 Response 401 with error 
+08:23:20.052 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-02-10T13:23:20.052044200Z][ OBSERVABILITY ] EXCEPTION IN BATCH REQUEST TO TEST OBSERVABILITY : com.browserstack.testOps.RequestException: Non 200 response
+	at com.browserstack.testOps.RequestException.non200(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsString(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.events(Unknown Source)
+	at com.browserstack.testOps.Listener.c(Unknown Source)
+	at com.browserstack.utils.RequestBatcher.a(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+08:23:20.060 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 401
+08:23:20.060 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 401
+08:23:20.060 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [OBSERVABILITY] Non-200 Response 401 with error 
+08:23:20.060 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 401
+08:23:20.060 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 401
+08:23:20.060 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [OBSERVABILITY] Non-200 Response 401 with error 
+08:23:20.060 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-02-10T13:23:20.060766900Z][ OBSERVABILITY ] EXCEPTION IN BATCH REQUEST TO TEST OBSERVABILITY : com.browserstack.testOps.RequestException: Non 200 response
+	at com.browserstack.testOps.RequestException.non200(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsString(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.events(Unknown Source)
+	at com.browserstack.testOps.Listener.c(Unknown Source)
+	at com.browserstack.utils.RequestBatcher.a(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+08:23:20.060 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-02-10T13:23:20.060766900Z][ OBSERVABILITY ] EXCEPTION IN BATCH REQUEST TO TEST OBSERVABILITY : com.browserstack.testOps.RequestException: Non 200 response
+	at com.browserstack.testOps.RequestException.non200(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsString(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.events(Unknown Source)
+	at com.browserstack.testOps.Listener.c(Unknown Source)
+	at com.browserstack.utils.RequestBatcher.a(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+08:23:20.135 [pool-3-thread-1] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload, response: OK
+08:23:20.164 [pool-3-thread-1] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload, response: OK
+08:23:20.166 [pool-3-thread-1] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload, response: OK
+08:23:20.168 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:23:20.199 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:23:20.200 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:23:20.739 [main] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle Config File does not exist.
+08:23:20.741 [Thread-0] DEBUG c.browserstack.BrowserStackJavaAgent - Starting final execution
+08:23:20.742 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+08:23:20.742 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind stopBuildUpstream
+08:23:20.742 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: PUT api/v1/builds//stop with request size 65
+08:23:20.742 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: PUT https://collector-observability.browserstack.com/api/v1/builds//stop with request size 65
+08:23:20.778 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 401
+08:23:20.778 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 401
+08:23:20.778 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [OBSERVABILITY] Non-200 Response 401 with error 
+08:23:20.778 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - Observability Stop request failed. Retrying.. Exception: com.browserstack.testOps.RequestException: Non 200 response
+	at com.browserstack.testOps.RequestException.non200(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsString(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.stop(Unknown Source)
+	at com.browserstack.testOps.Listener.a(Unknown Source)
+	at com.browserstack.testOps.Listener.a(Unknown Source)
+	at com.browserstack.testOps.Listener.onComplete(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.browserstack.utils.ConditionalInvocationHandler.invoke(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy8.onComplete(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.run(Unknown Source)
+
+08:23:20.909 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload, response: OK
+08:23:20.909 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: PUT api/v1/builds//stop with request size 65
+08:23:20.909 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: PUT https://collector-observability.browserstack.com/api/v1/builds//stop with request size 65
+08:23:20.957 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 401
+08:23:20.957 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 401
+08:23:20.957 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [OBSERVABILITY] Non-200 Response 401 with error 
+08:23:20.958 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-02-10T13:23:20.957690200Z][ TESTHUB ] Exception in stop build request : com.browserstack.testOps.RequestException: Non 200 response
+	at com.browserstack.testOps.RequestException.non200(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsString(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.stop(Unknown Source)
+	at com.browserstack.testOps.Listener.a(Unknown Source)
+	at com.browserstack.testOps.Listener.a(Unknown Source)
+	at com.browserstack.testOps.Listener.onComplete(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.browserstack.utils.ConditionalInvocationHandler.invoke(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy8.onComplete(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.run(Unknown Source)
+
+
+08:23:21.062 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload, response: OK
+08:23:21.064 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:23:21.069 [Thread-0] DEBUG c.b.utils.FrameworkDetectionUtils - Couldn't find dependency class: appium
+08:23:21.072 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+08:23:21.113 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"YOUR_ACCESS_KEY","userName":"YOUR_USERNAME","event_properties":{"isPercyAutoEnabled":false,"language":"java","sdkRunId":"5f03819a-e3ed-46e8-ba50-77cc9be31448","buildIdentifier":"#2","testhub_uuid":"","detectedAppiumVersion":"null","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":false,"turboscale":false},"hostname":"ITS-LT-LNR-4367","measures":{"sdk:driver:quit":0.17,"sdk:testhub":239.73469999432564,"sdk:automate:local":3331.9945999979973,"sdk:automate:hub-management":2406.05,"sdk:driver:pre-initialization":4.12,"sdk:setup":3688.06,"sdk:pre-test":11.679700002074242,"sdk:o11y:print-buildlink":321.207800000906,"sdk:hook":25.59},"frameworkVersion":"","productUsage":{"testObservability":{"buildHashedId":"","manuallySet":true,"enabled":false}},"browserStackConfig":{"browserstackLocal":true,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"AUTO","browserStackLocalOptions":{"localIdentifier":"10_Feb_823_ITS_LT_LNR_4367_hqum","key":"****"},"percyOptions":null,"testContextOptions":{"skipSessionStatus":false,"serenityOverridePlugin":false,"skipSessionName":false},"platforms":[{"capabilities":{},"browserVersion":"latest","osVersion":"Big Sur","platformCaps":{"os":"OS X","osVersion":"Big Sur","browserVersion":"latest","browserName":"Chrome"},"browser":"Chrome","os":"OS X","device":null,"platformString":"OS X, Big Sur, Chrome, latest","customVariables":"****"},{"capabilities":{},"browserVersion":"latest","osVersion":"10","platformCaps":{"os":"Windows","osVersion":10,"browserVersion":"latest","browserName":"Edge"},"browser":"Edge","os":"Windows","device":null,"platformString":"Windows, 10, Edge, latest","customVariables":"****"},{"capabilities":{"deviceName":"Samsung Galaxy S22 Ultra"},"browserVersion":null,"osVersion":"12.0","platformCaps":{"osVersion":12.0,"browserName":"chrome","deviceName":"Samsung Galaxy S22 Ultra"},"browser":"chrome","os":null,"device":"Samsung Galaxy S22 Ultra","platformString":"Samsung Galaxy S22 Ultra, 12.0, chrome","customVariables":"****"}],"parallelsPerPlatform":1,"framework":"junit5","accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":false,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"automationFrameworkVersion":"4.1.0","percyBuildId":null,"product":"[automate]","buildName":"browserstack build","os":"Windows 11","languageVersion":"21.0.4","appiumVersion":"","frameworkDetectionInstrumentation":{},"userFramework":"junit5","detectedDependencies":"junit4, junit5","referrer":"junit5-javaagent\/1.30.3","framework":"junit5","locationTrigger":"BSTACK_BUILD_END","accessibilityConfiguration":{"pollingTimeout":30},"language_framework":"java_junit5","detectedFramework":"none","testOrchestration":{"abortBuildOnFailure":{"enabled":false},"retryTestsOnFailure":{"enabled":false},"userConfig":{}},"detectedSeleniumVersion":"4.1.0","automationFramework":"selenium","seleniumVersion":"4.1.0"}}
+08:23:21.414 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful, response: {"message":"Unauthorized"}
+08:23:21.862 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - unable to upload logs : 401
+08:23:21.864 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:23:21.864 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle Config File does not exist.
+08:23:22.090 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Execute API call to get build details failed - Unexpected character (H) at position 0.
+08:23:22.093 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:23:22.095 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 5f03819a-e3ed-46e8-ba50-77cc9be31448, testhub id: 
+08:23:22.096 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+08:23:22.096 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\ITS-LT-LNR-4367-1\Documents\COURSE\Java-Fundamentals\Day-7\Junit-05_New\logs\key-metrics.json
+08:23:22.102 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://eds.browserstack.com/send_sdk_events with request size 643
+08:23:22.324 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+08:23:22.324 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Data sent successfully to https://eds.browserstack.com with status 200 {"event_type":"sdk_events","data":{"created_day":"2025-02-10T13:23:22.000102 +0000","event_name":"SDKFeaturePerformance","event_json":"{measures=[{\"duration\":1784.1138000041246,\"eventName\":\"sdk:automate:hub-management\",\"startTime\":1.286882645502E8,\"success\":true,\"worker\":1,\"failure\":null,\"details\":null,\"entryType\":\"measure\",\"platform\":0,\"command\":null,\"testName\":null,\"hookType\":\"\"}], sdkRunId=5f03819a-e3ed-46e8-ba50-77cc9be31448}","user_data":"YOUR_USERNAME","testhub_uuid":"","host_info":"{\"hostname\":\"ITS-LT-LNR-4367\",\"arch\":\"amd64\",\"type\":null,\"version\":\"10.0\",\"platform\":\"Windows 11\"}"}} {Content-Type=application/json}
